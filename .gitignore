@@ -1,24 +1,103 @@
+# =========================
+# Dependencies
+# =========================
+node_modules/
+jspm_packages/
+bower_components/
+
+# =========================
 # Logs
-logs
+# =========================
+logs/
 *.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
-lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
-*.local
+# =========================
+# Runtime data
+# =========================
+pids/
+*.pid
+*.seed
+*.pid.lock
 
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
+# =========================
+# Coverage
+# =========================
+coverage/
+*.lcov
+
+# =========================
+# Build outputs
+# =========================
+dist/
+build/
+out/
+
+# React
+build/
+
+# Vue
+dist/
+.cache/
+
+# =========================
+# Cache
+# =========================
+.npm/
+.eslintcache
+.parcel-cache/
+.vite/
+.vite-cache/
+
+# =========================
+# Environment variables
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Framework-specific
+# =========================
+# Next.js
+.next/
+
+# Nuxt
+.nuxt/
+
+# SvelteKit (just in case)
+.svelte-kit/
+
+# =========================
+# TypeScript
+# =========================
+*.tsbuildinfo
+
+# =========================
+# IDE / Editor
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# OS files
+# =========================
 .DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+Thumbs.db
+
+# =========================
+# Vercel / Netlify
+# =========================
+.vercel/
+.netlify/
+
+# =========================
+# Misc
+# =========================
+*.tgz
+*.tar.gz
